@@ -73,7 +73,7 @@ body {
 .container {
 	max-width: 900px;
 	background-color: white;
-	padding: 30px 50px;
+	padding: 50px 50px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -100,6 +100,8 @@ a {
 .page-navigation {
 	/* display: inline-block; */
 	width: 550px;
+	display: flex;
+	align-items: center;
 }
 
 .logo {
@@ -170,7 +172,7 @@ a {
 	padding: 20px;
 }
 
-hr{ 
+hr { 
 	height: 1px;
 	color: black;
 	background-color: black;
@@ -204,7 +206,7 @@ hr{
 	border: 1px solid black;
 	padding: 3px;
 	width: 150px;
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: center;
   }
 
@@ -221,7 +223,7 @@ hr{
 	  justify-content: space-between;
   }
 
-  .pad {
+  .service-banner-text {
 	  padding: 20px 0;
   }
 
@@ -240,3 +242,21 @@ hr{
 	  list-style-type: disc;
 	  
   }
+
+	/* styles for product page */
+
+.product-banner-text {
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.product-main-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product-col {
+	width: 380px;
+	padding: 15px 0;
+}

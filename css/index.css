@@ -158,7 +158,7 @@ a {
 }
 
 .col {
-	padding: 0 15px;
+	padding: 20px 20px;
 }
 
 .page-address {
@@ -173,6 +173,70 @@ a {
 hr{ 
 	height: 1px;
 	color: black;
-	background-color: red;
+	background-color: black;
 	border: none;
+  }
+
+
+  /* styles for services page */
+
+  .page-header {
+	  background-color: white;
+  }
+
+  .services-header-img {
+	  width: 800px
+  }
+
+  .service-main-text {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-evenly;
+	  height: 800px;
+  }
+
+  .service-section {
+	  display:flex;
+	  justify-content: space-between;
+  }
+
+  .learn {
+	border: 1px solid black;
+	padding: 3px;
+	width: 150px;
+	margin-top: 20px;
+	text-align: center;
+  }
+
+  .service-col {
+	  background-color: whitesmoke;
+	  padding: 20px 20px;
+	  border: 1px solid black;
+	  width: 380px;
+  }
+
+  .service-about {
+	  padding: 20px 0;
+	  display: flex;
+	  justify-content: space-between;
+  }
+
+  .pad {
+	  padding: 20px 0;
+  }
+
+  .services-info-img {
+	  padding: 0 20px;
+	  width: 380px;
+  }
+
+  ul {
+	margin-top: 20px;
+  }
+
+  li {
+	  margin-left: 20px;
+	  padding: 5px 0;
+	  list-style-type: disc;
+	  
   }
